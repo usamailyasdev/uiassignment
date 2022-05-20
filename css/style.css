@@ -1,7 +1,9 @@
-.body{
-  background-color: #f8f9fa;
+body{
+  background: #f8f9fa;
   font-weight: 400;
   font-size: 1rem;
+
+  font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 .navbar{
@@ -62,7 +64,6 @@ a{
   border: 0px;
   color: white;
   }
-
  .icon-circle{
   position: relative;
   width: 50px;
@@ -101,7 +102,7 @@ a{
 
 
 .quote {
-  color: rgba(0,0,0,.1);
+  color: #fff;
   text-align: center;
   margin-bottom: 30px;
 }
@@ -136,6 +137,9 @@ a{
   display: inline-block;
   margin-left: 0.2rem;
   text-align: center;
+}
+.active-dot{
+  background-color: white;
 }
 .progress .progress-line{
   position: relative;
@@ -195,4 +199,7 @@ a{
 }
 #nav-toggle-button{
  color: white;
+}
+.about-me-section{
+  background-color: white;
 }
